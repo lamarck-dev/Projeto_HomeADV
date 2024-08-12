@@ -10,15 +10,15 @@
         <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
 
         <!-- Título da página (aparece na aba) -->
-        <title>Cadastro</title>
+        <title>Contato</title>
     </head>
 
     <body>  
 
         <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
         <div>
-            <h1 id="titulo">Cadastro de DEVs</h1>
-            <p id="subtitulo">Complete suas informações</p>
+            <h1 id="titulo">Contate-nos!</h1>
+            <p id="subtitulo">Preencha o formulário</p>
             <br>
         </div>
 
@@ -45,8 +45,14 @@
                 <input type="email" name="email" id="email" required>
             </div>
 
-            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <!-- Campo de phone com-->
             <div class="campo">
+                <label for="phone"><strong>Telefone</strong></label>
+                <input type="text" name="phone" id="phone" required>
+            </div>
+
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <!-- <div class="campo">
                 <label><strong>De qual lado da aplicação você desenvolve?</strong></label>
                 <label>
                     <input type="radio" name="devweb" value="frontend" checked>Front-end
@@ -57,10 +63,10 @@
                 <label>
                     <input type="radio" name="devweb" value="fullstack">Fullstack
                 </label>
-            </div>
+            </div> -->
 
             <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
-            <div class="campo">
+            <!-- <div class="campo">
                 <label for="senioridade"><strong>Senioridade</strong></label>
                 <select id="senioridade" required>
                   <option selected disabled value="">Selecione</option>
@@ -68,10 +74,10 @@
                   <option>Pleno</option>
                   <option>Sênior</option>
                 </select>
-            </div>
-
-            <fieldset class="grupo">
-                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+            </div> -->
+             
+            <!-- <fieldset class="grupo">
+                Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo"
                 <div id="check">
                     <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
                     <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
@@ -88,14 +94,14 @@
                     <label for="tecnologia6"> Python</label>
                     <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
                     <label for="tecnologia7"> Java</label>
-                </div>
-            </fieldset>
+                </div> 
+                </fieldset> -->
 
             <!-- Caixa de texto -->
             <div class="campo">
                 <br>
-                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
-                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                <label for="experiencia"><strong>Conte um pouco mais sobre o assunto: </strong></label>
+                <textarea rows="6" style="width: 26em" id="assunto" name="assunto"></textarea>
             </div>
 
             <!-- Botão para enviar o formulário -->

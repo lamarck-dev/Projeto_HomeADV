@@ -13,6 +13,7 @@
     display: flex;
     height: 100px;
     width: 100%;
+    background: #02476F;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
     letter-spacing: 0.900px;
     word-spacing: 30px;
     cursor: pointer;
-    color: #000000;
+    color: #ffffff;
 }
 
 button {
@@ -77,8 +78,8 @@ button {
     height: 100%;
     width: 100%;
     font-weight: bolder;
-    font-size: 20px;
-    background: #D2B48C;
+    font-size: 19px;
+    background: #02476F;
 }
 
 div {
@@ -90,5 +91,10 @@ div {
 
 .thirdpage{
     text-align: center;
-    background: #D2B48C;
+    background: #02476F;
+}
+
+.rodape{
+    font-size: 15px;
+    text-align: center;
 }
