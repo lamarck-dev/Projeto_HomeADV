@@ -42,8 +42,12 @@ button {
 }
 
 .firstpage {
-    height: 500px;
+    height: 550px;
     width: 100%;
+    /* background-image: url(./img/jusdeusa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
 }
 
 .juscapa {
@@ -74,7 +78,21 @@ button {
     text-align: center;
 }
 
-.secondpage {
+.quadros {
+    height: 300px;
+    width: 250px;
+    border: solid 1px;
+    text-align: center;
+    font-size: 15px;
+    background: #ffffff;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.secondpage,
+.thirdpage,
+.fourthpage,
+.fifthpage {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -82,22 +100,14 @@ button {
     height: 100%;
     width: 100%;
     font-weight: bolder;
-    font-size: 20px;
-    background: #02476F;
-}
-
-div {
-    height: 300px;
-    width: 250px;
-    border: solid 1px;
-    border-radius: 20px;
-    text-align: center;
     background: #ffffff;
 }
 
-.thirdpage {
-    text-align: center;
-    background: #02476F;
+.image {
+    height: 400px;
+    width: 600px;
+    border-right: 30px;
+    text-align: justify;
 }
 
 .rodape {
